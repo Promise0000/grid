@@ -1,0 +1,43 @@
+body{
+    width: 30%;
+    margin-top: 60px;
+    margin-left:30%;
+    border: 5px solid rgb(245, 241, 241);
+}
+
+section{
+    margin: 2px;
+    background-color: rgb(237, 234, 234);
+}
+section > div {
+    padding: 10px;
+    font-weight: bold;
+}
+
+div{
+    border: 1px solid gray;
+    text-align: center;
+    font-size: 24px;
+}
+
+section.grid{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.calc1 {
+    grid-column: span 4;
+    text-align: right;
+    background-color: rgb(45, 41, 41);
+    color: white;
+}
+
+.calc2, .calc3, .calc4, .calc5 {
+    background-color: rgb(172, 168, 168);
+    
+}
+.calc9 {
+    grid-row: span 4;
+    padding-top: 80px;
+    background-color: rgb(224, 99, 120);
+}
